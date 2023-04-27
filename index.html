@@ -2,12 +2,89 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>Progate</title>
+    <link rel="stylesheet" href="public/css/stylesheet.css">
+    <title>Progateで学習した内容</title>
   </head>
   <body>
-    <h1>Hello World!!</h1>
-    <h1 class="title">HTML & CSS の開発環境を用意しよう！</h1>
-    <p>自分のPCでWebページを開発する方法を学習しましょう</p>
+    <header>
+      <div class="header">
+        <div class="header-logo">Progateで学習した内容</div>
+        <div class="header-list">
+          <ul>
+            <li><a href="#courses_completed">修了したコース</a></li>
+            <li><a href="#lessons_completed">修了したレッスン</a></li>
+            <li>お問い合せ</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="copy-container">
+      <h1>Progateのサービスを利用して学んだプログラム<span>.</span></h1>
+    </div>
+    <div class="contents">
+      <h3 id="courses_completed">修了したコース</h3>
+      <div class="contents-item">
+        <img src="public/images/web-ruby-on-rails.png">
+        <p>Web開発コース<br>(Ruby on Rails)</p>
+      </div>
+      <div class="contents-item">
+        <img src="public/images/web-nodejs.png">
+        <p>Web開発コース<br>(Node.js)</p>
+      </div>
+    </div>
+    <div class="contents">
+      <h3 id="lessons_completed">修了したレッスン</h3>
+      <div class="contents-item">
+        <img src="public/images/html-css.png">
+        <p>HTML & CSS</p>
+      </div>
+      <div class="contents-item">
+        <img src="public/images/ruby.png">
+        <p>Ruby</p>
+      </div>
+      <div class="contents-item">
+        <img src="public/images/php.png">
+        <p>PHP</p>
+      </div>
+      <div class="contents-item">
+        <img src="public/images/javascript-es6.png">
+        <p>JavaScript(ES6)</p>
+      </div>
+      <div class="contents-item">
+        <img src="public/images/ruby-on-rails.png">
+        <p>Ruby on Rails5</p>
+      </div>
+      <div class="contents-item">
+        <img src="public/images/git.png">
+        <p>Git</p>
+      </div>
+      <div class="contents-item">
+        <img src="public/images/command-line.png">
+        <p>Command Line</p>
+      </div>
+      <div class="contents-item">
+        <img src="public/images/mysql.png">
+        <p>SQL</p>
+      </div>
+    </div>
+    <div class="contents-form">
+      <h3>お問い合わせ</h3>
+      <p>メールアドレス（必須）</p>
+      <input>
+      <p>お問い合わせ内容（必須）</p>
+      <textarea></textarea>
+      <p>※必須項目は必ずご入力ください</p>
+      <input class="contents-submit" type="submit" value="送信">
+    </div>
+    <div class="footer">
+      <div class="footer-logo">Sites studied：<a href="https://prog-8.com">Progate</a></div>
+      <div class="footer-list">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
