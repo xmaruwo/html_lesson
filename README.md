@@ -10,3 +10,5 @@
 ```
 $ docker-compose up -d
 ```
+
+`About`のリンクはgithubのhtmlをpreviewするサービスを利用してHTMLを表示するリンクになっています。
