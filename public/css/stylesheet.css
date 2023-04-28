@@ -7,6 +7,7 @@ form, input, div {
 }
 
 body {
+  margin: 0;
   font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
@@ -58,6 +59,8 @@ header {
 }
 
 .contents {
+  max-width: 1170px;
+  width: 100%;
   padding-bottom: 100px;
   padding-left: 80px;
   padding-right: 80px;
@@ -120,6 +123,7 @@ header {
 }
 
 .footer {
+  width: 100%;
   margin-top: 130px;
   height: 120px;
   padding: 40px;
@@ -145,10 +149,11 @@ header {
   padding-bottom: 20px;
 }
 
-.contents-test {
-  float: left;
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  margin-right: 10px;
+  display: none;
 }
-
-.title {
-    color: #02ccba;
-  }

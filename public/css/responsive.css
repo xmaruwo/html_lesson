@@ -1,0 +1,28 @@
+@media all and (max-width: 1000px) {
+    .header-logo {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .header-logo {
+        font-size: 30px;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .copy-container h1 {
+        font-size: 30px;
+    }
+
+    .footer {
+      width: 100%;
+      text-align: center;
+    }
+  }
