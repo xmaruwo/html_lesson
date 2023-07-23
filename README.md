@@ -5,10 +5,9 @@
 </a>
 
 ---
-# 成果物
-
-![Progateで学習した内容_html_lesson](https://github.com/xmaruwo/html_lesson/assets/94747777/08773834-893f-4b0d-bc94-7526153b543b)
-
+## 成果物
+### Progateで学習した内容
+<img src="https://user-images.githubusercontent.com/94747777/255373164-08773834-893f-4b0d-bc94-7526153b543b.png" width="500px">
 
 ### バックグラウンドでイメージ構築、コンテナ構築、コンテナ起動
 ```
