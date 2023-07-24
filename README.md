@@ -6,6 +6,9 @@
 
 ---
 ## 成果物
+
+同じような画面をreactで作成したものはこちら 👉　https://github.com/xmaruwo/react_lesson/
+
 ### Progateで学習した内容
 <img src="https://user-images.githubusercontent.com/94747777/255373164-08773834-893f-4b0d-bc94-7526153b543b.png" width="500px">
 
